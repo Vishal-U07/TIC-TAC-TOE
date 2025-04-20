@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Tic-Tac-Toe</h1>
+    <div id="game-status">Current Turn: <span id="current-turn">X</span></div>
+    <div class="grid" id="grid">
+      <!-- 3x3 grid cells will be dynamically created -->
+    </div>
+    <div class="controls">
+      <button id="restart-btn" class="button">Restart Game</button>
+      <div class="difficulty">
+        <label for="difficulty-select">Difficulty:</label>
+        <select id="difficulty-select" class="select">
+          <option value="easy">Easy</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Enjoy the game! Created with ❤ by Vishal</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
